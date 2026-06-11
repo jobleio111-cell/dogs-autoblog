@@ -113,5 +113,28 @@
       "pet health"
     ],
     "word_count": 514
+  },
+  {
+    "topic": "Grooming Tips for Dogs: A Step-by-Step Guide",
+    "title": "Revolutionize Your Dog's Health: The Ultimate Grooming Guide",
+    "published_at": "2026-06-11T07:41:26.756770",
+    "blogger": {
+      "success": false,
+      "url": "",
+      "post_id": ""
+    },
+    "pinterest": {
+      "success": true,
+      "pin_url": "Handled by Make.com",
+      "pin_id": ""
+    },
+    "keywords": [
+      "dog grooming tips",
+      "puppy care",
+      "dog health",
+      "pet grooming",
+      "dog nail care"
+    ],
+    "word_count": 542
   }
 ]

@@ -12,3 +12,6 @@
 [2026-06-11 07:26:22] [SUCCESS] SUCCESS: Unlock the Secrets to a Happy, Healthy Dog: Expert Tips Inside! | Blog: True | Pin: True
 [2026-06-11 07:32:49] [INFO] Topic selected: Must-Have Toys and Accessories for Your Puppy
 [2026-06-11 07:32:55] [SUCCESS] SUCCESS: Unleash the Fun: Essential Toys and Accessories for Your New Puppy | Blog: True | Pin: True
+[2026-06-11 07:41:20] [INFO] Topic selected: Grooming Tips for Dogs: A Step-by-Step Guide
+[2026-06-11 07:41:26] [ERROR] Blogger publish failed: <HttpError 403 when requesting https://blogger.googleapis.com/v3/blogs/2865063923644115436/posts?isDraft=false&fetchBody=false&alt=json returned "The caller does not have permission". Details: "[{'message': 'The caller does not have permission', 'domain': 'global', 'reason': 'forbidden'}]">
+[2026-06-11 07:41:26] [SUCCESS] SUCCESS: Revolutionize Your Dog's Health: The Ultimate Grooming Guide | Blog: False | Pin: True
