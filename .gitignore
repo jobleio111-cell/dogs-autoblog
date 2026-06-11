@@ -8,7 +8,6 @@ auth/client_secrets.json
 .env
 
 # Temp files
-temp_images/
 __pycache__/
 *.pyc
 *.pyo
