@@ -232,8 +232,7 @@ class ImageHandler:
                     optimized = self._download_and_optimize(img_url, title)
                     optimized.update({
                         "source": "pexels",
-                        "photographer": photo.get("photographer", "Pexels"),
-                        "url": img_url
+                        "photographer": photo.get("photographer", "Pexels")
                     })
                     return optimized
         except Exception as e:
@@ -327,21 +326,25 @@ class ImageHandler:
 
             os.makedirs("temp_images", exist_ok=True)
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            local_path = f"temp_images/post_{timestamp}.jpg"
+            filename = f"post_{timestamp}.jpg"
+            local_path = f"temp_images/{filename}"
             img.save(local_path, "JPEG", quality=85)
 
             with open(local_path, "rb") as f:
                 img_base64 = base64.b64encode(f.read()).decode('utf-8')
+                
+            github_url = f"https://raw.githubusercontent.com/jobleio111-cell/dogs-autoblog/main/temp_images/{filename}"
 
             return {
                 "local_path": local_path,
                 "base64": img_base64,
+                "url": github_url,
                 "width": 1000,
                 "height": 1500
             }
         except Exception as e:
             print(f"   ❌ Download/optimize error: {e}")
-            return {"local_path": None, "base64": None}
+            return {"local_path": None, "base64": None, "url": None}
 
     def _create_placeholder_image(self, title: str) -> dict:
         """Agar sab fail ho jain toh simple placeholder image"""
