@@ -15,3 +15,5 @@
 [2026-06-11 07:41:20] [INFO] Topic selected: Grooming Tips for Dogs: A Step-by-Step Guide
 [2026-06-11 07:41:26] [ERROR] Blogger publish failed: <HttpError 403 when requesting https://blogger.googleapis.com/v3/blogs/2865063923644115436/posts?isDraft=false&fetchBody=false&alt=json returned "The caller does not have permission". Details: "[{'message': 'The caller does not have permission', 'domain': 'global', 'reason': 'forbidden'}]">
 [2026-06-11 07:41:26] [SUCCESS] SUCCESS: Revolutionize Your Dog's Health: The Ultimate Grooming Guide | Blog: False | Pin: True
+[2026-06-11 07:58:24] [INFO] Topic selected: signs your dog might be sick and when to visit the vet
+[2026-06-11 07:58:31] [SUCCESS] SUCCESS: Is Your Dog Sick? Warning Signs You Can't Ignore - Visit the Vet Now! | Blog: True | Pin: True

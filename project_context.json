@@ -4,9 +4,9 @@
   "language": "English",
   "posts_per_day": 2,
   "created_at": "2026-06-11",
-  "last_updated": "2026-06-11T07:41:26.757470",
-  "total_posts_published": 7,
-  "total_pins_created": 6,
+  "last_updated": "2026-06-11T07:58:31.488828",
+  "total_posts_published": 8,
+  "total_pins_created": 7,
   "api_keys_configured": false,
   "blogger_configured": false,
   "pinterest_configured": false,
@@ -20,7 +20,8 @@
     "Must-Have Toys and Accessories for Your Puppy",
     "10 Essential Dog Care Tips Every Owner Should Know",
     "How to Keep Your Dog Healthy and Active",
-    "Grooming Tips for Dogs: A Step-by-Step Guide"
+    "Grooming Tips for Dogs: A Step-by-Step Guide",
+    "signs your dog might be sick and when to visit the vet"
   ],
   "failed_attempts": [
     {
@@ -125,11 +126,23 @@
       "action": "Daily run complete: 0 success, 1 failed",
       "status": "completed",
       "notes": "Total posts ever: 7"
+    },
+    {
+      "date": "2026-06-11T07:58:18.537781",
+      "action": "Daily run started - 1 posts",
+      "status": "started",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-11T07:58:31.488822",
+      "action": "Daily run complete: 1 success, 0 failed",
+      "status": "completed",
+      "notes": "Total posts ever: 8"
     }
   ],
   "stats": {
-    "this_week": 5,
-    "this_month": 5,
-    "all_time": 5
+    "this_week": 6,
+    "this_month": 6,
+    "all_time": 6
   }
 }
