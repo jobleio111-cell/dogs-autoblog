@@ -116,8 +116,8 @@ def run_single_post(config: dict, context_manager: ContextManager, topic: str = 
             "SUCCESS"
         )
 
-        # Temp images cleanup
-        image_handler.cleanup_temp_images()
+        # Temp images cleanup (DISABLED: We need them hosted on GitHub!)
+        # image_handler.cleanup_temp_images()
 
         return blogger_result.get("success", False)
 
