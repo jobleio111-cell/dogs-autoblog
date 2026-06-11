@@ -4,9 +4,9 @@
   "language": "English",
   "posts_per_day": 2,
   "created_at": "2026-06-11",
-  "last_updated": "2026-06-11T18:37:16.492728",
-  "total_posts_published": 9,
-  "total_pins_created": 8,
+  "last_updated": "2026-06-11T20:02:02.504219",
+  "total_posts_published": 10,
+  "total_pins_created": 9,
   "api_keys_configured": false,
   "blogger_configured": false,
   "pinterest_configured": false,
@@ -21,7 +21,8 @@
     "10 Essential Dog Care Tips Every Owner Should Know",
     "How to Keep Your Dog Healthy and Active",
     "Grooming Tips for Dogs: A Step-by-Step Guide",
-    "signs your dog might be sick and when to visit the vet"
+    "signs your dog might be sick and when to visit the vet",
+    "Understanding Your Dog's Body Language"
   ],
   "failed_attempts": [
     {
@@ -150,11 +151,23 @@
       "action": "Daily run complete: 1 success, 0 failed",
       "status": "completed",
       "notes": "Total posts ever: 9"
+    },
+    {
+      "date": "2026-06-11T20:01:43.579685",
+      "action": "Daily run started - 1 posts",
+      "status": "started",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-11T20:02:02.504213",
+      "action": "Daily run complete: 1 success, 0 failed",
+      "status": "completed",
+      "notes": "Total posts ever: 10"
     }
   ],
   "stats": {
-    "this_week": 7,
-    "this_month": 7,
-    "all_time": 7
+    "this_week": 8,
+    "this_month": 8,
+    "all_time": 8
   }
 }
