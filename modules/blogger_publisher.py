@@ -96,7 +96,7 @@ class BloggerPublisher:
          style="max-width:100%; height:auto; border-radius:8px;"
          title="{post_data['seo_title']}"/>
     <p style="font-size:12px; color:#666; margin-top:5px;">
-        Image: Fashion Photography
+        Image: Dog Photography
     </p>
 </div>'''
 
@@ -112,8 +112,8 @@ class BloggerPublisher:
 <hr style="margin: 30px 0;"/>
 <div style="background:#f8f9fa; padding:20px; border-radius:8px; margin-top:20px;">
     <h4 style="color:#333; margin-top:0;">📌 Found This Helpful?</h4>
-    <p>Save this post and share it with someone who loves fashion! 
-    Follow us for more <strong>outfit ideas, style tips, and latest trends</strong>.</p>
+    <p>Save this post and share it with a fellow dog lover! 
+    Follow us for more <strong>dog care tips, puppy training advice, and pet health guides</strong>.</p>
 </div>
 <!-- HIDDEN MARKERS FOR MAKE.COM PINTEREST AUTOMATION -->
 <span style="display:none;" id="pin-image-url">{image_data.get('url', '')}</span>
