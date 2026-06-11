@@ -2,11 +2,16 @@ name: 🤖 Auto Blog Publisher
 
 on:
   schedule:
-    # UTC time mein hai - Pakistan (PKT) = UTC+5
-    # 4:17 UTC = 9:17 AM PKT (subah ki post) - Delay se bachne ke liye 17 minute set kiya hai
-    - cron: '17 4 * * *'
-    # 10:17 UTC = 3:17 PM PKT (dopahar ki post)
-    - cron: '17 10 * * *'
+    # 03:17 UTC = 08:17 AM PKT
+    - cron: '17 3 * * *'
+    # 07:17 UTC = 12:17 PM PKT
+    - cron: '17 7 * * *'
+    # 11:17 UTC = 04:17 PM PKT
+    - cron: '17 11 * * *'
+    # 15:17 UTC = 08:17 PM PKT
+    - cron: '17 15 * * *'
+    # 19:17 UTC = 12:17 AM PKT
+    - cron: '17 19 * * *'
   
   # Manual trigger bhi kar sako
   workflow_dispatch:
