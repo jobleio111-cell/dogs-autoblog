@@ -1,0 +1,132 @@
+name: 🤖 Auto Blog Publisher
+
+on:
+  schedule:
+    # UTC time mein hai - Pakistan (PKT) = UTC+5
+    # 4:17 UTC = 9:17 AM PKT (subah ki post) - Delay se bachne ke liye 17 minute set kiya hai
+    - cron: '17 4 * * *'
+    # 10:17 UTC = 3:17 PM PKT (dopahar ki post)
+    - cron: '17 10 * * *'
+  
+  # Manual trigger bhi kar sako
+  workflow_dispatch:
+    inputs:
+      posts_count:
+        description: 'Kitni posts publish karni hain?'
+        required: false
+        default: '1'
+      custom_topic:
+        description: 'Custom topic (optional, khali choro auto ke liye)'
+        required: false
+        default: ''
+
+jobs:
+  publish-post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      # 1. Code checkout
+      - name: 📥 Code Checkout
+        uses: actions/checkout@v4
+
+      # 2. Python setup
+      - name: 🐍 Python Setup
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # 3. Dependencies install
+      - name: 📦 Dependencies Install
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-dejavu-core
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 4. Config file banana (GitHub Secrets se)
+      - name: ⚙️ Config File Setup
+        env:
+          GROQ_KEY: ${{ secrets.GROQ_API_KEY }}
+          PEXELS_KEY: ${{ secrets.PEXELS_API_KEY }}
+          BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+        run: |
+          cat > config.json << EOF
+          {
+            "groq_api_key": "$GROQ_KEY",
+            "pexels_api_key": "$PEXELS_KEY",
+            "pinterest_access_token": "disabled",
+            "pinterest_board_id": "disabled",
+            "blogger_blog_id": "$BLOG_ID",
+            "blogger_client_secrets_file": "auth/client_secrets.json",
+            "niche": "Daily Dogs Care Tips",
+            "posts_per_day": 2,
+            "language": "English",
+            "min_word_count": 1000,
+            "pinterest_hashtags_count": 15,
+            "image_width": 1000,
+            "image_height": 1500
+          }
+          EOF
+
+      # 5. Google Auth setup (Safe write to avoid JSON corruption)
+      - name: 🔐 Google Auth Setup
+        env:
+          CLIENT_SECRETS: ${{ secrets.BLOGGER_CLIENT_SECRETS_JSON }}
+          TOKEN: ${{ secrets.BLOGGER_TOKEN_JSON }}
+        run: |
+          mkdir -p auth
+          echo "$CLIENT_SECRETS" > auth/client_secrets.json
+          echo "$TOKEN" > auth/blogger_token.json
+
+      # 6. Context file restore (agar pehle se hai)
+      - name: 📂 Restore Context
+        uses: actions/cache@v4
+        with:
+          path: |
+            project_context.json
+            published_posts/
+            logs/
+          key: blog-context-${{ github.run_id }}
+          restore-keys: |
+            blog-context-
+
+      # 7. Main script run karo
+      - name: 🚀 Blog Post Publish Karo
+        run: |
+          if [ -n "${{ github.event.inputs.custom_topic }}" ]; then
+            python main.py --single "${{ github.event.inputs.custom_topic }}"
+          else
+            python main.py --run 1
+          fi
+
+      # 8. Context save karo (next run ke liye)
+      - name: 💾 Context Save
+        uses: actions/cache@v4
+        with:
+          path: |
+            project_context.json
+            published_posts/
+            logs/
+          key: blog-context-${{ github.run_id }}
+
+      # 9. Updated context ko commit karo
+      - name: 📤 Context Commit
+        run: |
+          git config --local user.email "autoblog@github.com"
+          git config --local user.name "Auto Blog Bot"
+          git add project_context.json published_posts/ logs/ || true
+          git diff --staged --quiet || git commit -m "📝 Auto post: $(date '+%Y-%m-%d %H:%M')"
+          git push || true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 10. Status notification
+      - name: ✅ Run Complete
+        if: always()
+        run: |
+          echo "=============================="
+          echo "Auto Blog Run Complete!"
+          echo "Time: $(date)"
+          echo "=============================="

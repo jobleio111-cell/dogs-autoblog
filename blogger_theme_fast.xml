@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='1.0.0' expr:class='data:blog.languageDirection' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+    <b:include data='blog' name='all-head-content'/>
+    <meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' name='viewport'/>
+    <title><data:blog.pageTitle/></title>
+    
+    <!-- Pinterest Verification -->
+    <meta content='6187923b30f528598398b4b904529c0f' name='p:domain_verify'/>
+    
+    <!-- Google Search Console (From your old theme) -->
+    <meta content='0242d2a8cecc6b3d576471803acb7da0b1a17df00d9fab549dd14f3ddbded7d7' name='galaksion-domain-verification'/>
+    
+    <!-- SEO Meta Tags -->
+    <meta content='Latest female fashion trends, stylish outfits, and fashion tips for women.' name='description'/>
+    
+    <!-- Adsterra Pop Under -->
+    <script src='https://pl29702057.effectivecpmnetwork.com/c4/cf/25/c4cf252cff9845a12808e0a154b38ffd.js' type='text/javascript'></script>
+    
+    <!-- Adsterra Social Bar -->
+    <script src='https://pl29702079.effectivecpmnetwork.com/4c/80/f1/4c80f1c58a0f27f98567ee54ddce8b98.js' type='text/javascript'></script>
+    
+    <b:skin version='1.0.0'><![CDATA[
+    /* Minimal Fast CSS For Fashion Blog */
+    body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0; padding: 0; background-color: #fcfcfc; color: #333; line-height: 1.6; }
+    header { background-color: #ffeff5; padding: 30px; text-align: center; border-bottom: 2px solid #ff1493; }
+    header h1 { margin: 0; color: #ff1493; font-size: 2.5em; text-transform: uppercase; letter-spacing: 2px; }
+    header p { color: #555; font-style: italic; }
+    .container { max-width: 800px; margin: 20px auto; padding: 0 15px; }
+    .post { background: #fff; padding: 25px; margin-bottom: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    .post-title { font-size: 1.8em; margin-top: 0; color: #111; }
+    .post-title a { color: #111; text-decoration: none; }
+    .post-title a:hover { color: #ff1493; }
+    .ad-slot { margin: 25px 0; text-align: center; overflow: hidden; }
+    img { max-width: 100%; height: auto; border-radius: 4px; }
+    a { color: #ff1493; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ]]></b:skin>
+</head>
+<body>
+    <header>
+        <h1><data:blog.title/></h1>
+        <p>Your Ultimate Guide to Female Fashion &amp; Latest Trends</p>
+    </header>
+
+    <!-- Top Banner 728x90 -->
+    <div class='ad-slot'>
+        <script type='text/javascript'>
+//<![CDATA[
+          atOptions = {
+            'key' : '300c340eac46b4eaa36428fb40f562a9',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+//]]>
+        </script>
+        <script src='https://www.highperformanceformat.com/300c340eac46b4eaa36428fb40f562a9/invoke.js' type='text/javascript'></script>
+    </div>
+
+    <div class='container'>
+        <b:section class='main' id='main' showaddelement='yes'>
+            <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2'>
+                <b:widget-settings>
+                    <b:widget-setting name='showDateHeader'>true</b:widget-setting>
+                </b:widget-settings>
+                <b:includable id='main' var='top'>
+                    <b:loop values='data:posts' var='post'>
+                        <div class='post'>
+                            <h2 class='post-title'>
+                                <a expr:href='data:post.url'><data:post.title/></a>
+                            </h2>
+                            <div class='post-body'>
+                                <data:post.body/>
+                            </div>
+                            
+                            <!-- Ads Only show inside the post page (not on homepage) to avoid clutter -->
+                            <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                                <!-- Middle Ad Native Banner -->
+                                <div class='ad-slot'>
+                                    <script async='async' data-cfasync='false' src='https://pl29702058.effectivecpmnetwork.com/d746049657127e8c5c22b7ffe5fe403a/invoke.js' type='text/javascript'></script>
+                                    <div id='container-d746049657127e8c5c22b7ffe5fe403a'></div>
+                                </div>
+                                
+                                <!-- Bottom Ad 300x250 -->
+                                <div class='ad-slot'>
+                                    <script type='text/javascript'>
+//<![CDATA[
+                                      atOptions = {
+                                        'key' : 'c2dcfa55d093a07200a490bdea74d128',
+                                        'format' : 'iframe',
+                                        'height' : 250,
+                                        'width' : 300,
+                                        'params' : {}
+                                      };
+//]]>
+                                    </script>
+                                    <script src='https://www.highperformanceformat.com/c2dcfa55d093a07200a490bdea74d128/invoke.js' type='text/javascript'></script>
+                                </div>
+                            </b:if>
+                        </div>
+                    </b:loop>
+                </b:includable>
+            </b:widget>
+        </b:section>
+    </div>
+</body>
+</html>
