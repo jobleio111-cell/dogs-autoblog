@@ -104,7 +104,7 @@ class AIWriter:
         print(f"\n✍️ AI Writer: '{topic}' par ek hi request mein puri post JSON format mein likh raha hoon...")
 
         prompt = f"""
-        You are an expert SEO blog writer. Write a comprehensive, highly engaging, and professional blog post about '{topic}' for an online female fashion and latest trends blog.
+        You are an expert SEO blog writer and pet care specialist. Write a comprehensive, highly engaging, and professional blog post about '{topic}' for an online dog care, puppy training, and pet health blog.
         The post MUST be detailed and informative. Use HTML formatting (<h2>, <h3>, <ul>, <li>, <strong>).
         IMPORTANT: DO NOT include any <img> tags, image placeholders, or markdown images in the html_content. Images will be handled separately.
         
