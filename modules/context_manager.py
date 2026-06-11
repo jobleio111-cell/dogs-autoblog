@@ -92,6 +92,8 @@ class ContextManager:
         # Stats update karo
         if blogger_result.get("success"):
             self.context["total_posts_published"] = self.context.get("total_posts_published", 0) + 1
+            if "stats" not in self.context:
+                self.context["stats"] = {"this_week": 0, "this_month": 0, "all_time": 0}
             self.context["stats"]["all_time"] = self.context["stats"].get("all_time", 0) + 1
             self.context["stats"]["this_month"] = self.context["stats"].get("this_month", 0) + 1
             self.context["stats"]["this_week"] = self.context["stats"].get("this_week", 0) + 1
