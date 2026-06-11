@@ -24,16 +24,6 @@ class TrendFinder:
 
         # Dogs niche ke liye seed keywords
         self.seed_keywords = [
-            "daily dog care routine",
-            "best dog food for puppies",
-            "how to train a puppy",
-            "dog health tips",
-            "grooming tips for dogs",
-            "dog behavior problems",
-            "essential dog accessories",
-            "preventing fleas and ticks on dogs",
-            "dog separation anxiety solutions",
-            "best exercises for dogs",
             "healthy dog treats recipes",
             "signs of a sick dog",
             "how to bathe a dog properly",
@@ -98,10 +88,10 @@ class TrendFinder:
             'Accept-Language': 'en-US,en;q=0.9',
         }
 
-        # Pinterest trending URLs for fashion category
+        # Pinterest trending URLs for dogs category
         pinterest_urls = [
-            "https://www.pinterest.com/ideas/womens-fashion/916531478716/",
-            "https://www.pinterest.com/ideas/outfits/952549298418/",
+            "https://www.pinterest.com/ideas/dogs/950155708821/",
+            "https://www.pinterest.com/ideas/dog-care/904128527263/"
         ]
 
         for url in pinterest_urls:
@@ -128,24 +118,21 @@ class TrendFinder:
 
     def _get_fallback_topics(self) -> list:
         """Agar APIs fail ho jain toh yeh evergreen topics use karo"""
-        evergreen_fashion_topics = [
-            "10 Must-Have Wardrobe Essentials for Every Woman",
-            "How to Style a Classic White Shirt in 5 Different Ways",
-            "The Ultimate Guide to Building a Capsule Wardrobe",
-            "Top 5 Denim Trends You Need to Try This Season",
-            "Effortless Casual Outfit Ideas for the Weekend",
-            "How to Dress Elegantly on a Budget",
-            "The Best Color Combinations for Winter Outfits",
-            "Chic Office Wear Ideas for Professional Women",
-            "5 Vintage Fashion Trends Making a Huge Comeback",
-            "How to Accessorize Your Outfit Like a Pro",
-            "The Best Shoes to Pair with Wide Leg Pants",
-            "Minimalist Fashion: How to Look Expensive with Less",
-            "Cute and Comfortable Airport Outfit Ideas",
-            "Top Makeup Trends to Complement Your Outfits",
-            "Street Style Fashion: How to Get the Look"
+        evergreen_dog_topics = [
+            "10 Essential Dog Care Tips Every Owner Should Know",
+            "The Ultimate Guide to Puppy Training for Beginners",
+            "What to Feed Your Dog: Best Nutrition Advice",
+            "How to Keep Your Dog Healthy and Active",
+            "Grooming Tips for Dogs: A Step-by-Step Guide",
+            "Understanding Your Dog's Body Language",
+            "Top 5 Fun Exercises to Do With Your Dog",
+            "How to Handle Common Dog Behavior Problems",
+            "The Best Dog Breeds for Families with Kids",
+            "Must-Have Toys and Accessories for Your Puppy",
+            "How to Socialize Your New Puppy Properly",
+            "Signs Your Dog Might Be Sick and When to Visit the Vet"
         ]
-        return evergreen_fashion_topics
+        return evergreen_dog_topics
 
     def select_best_topic(self, num_topics=2) -> list:
         """
