@@ -247,12 +247,12 @@ class ImageHandler:
             bg_color = (235, 230, 225) # Light warm gray background
             canvas = Image.new("RGB", (1000, 1500), color=bg_color)
             
-            # Download font robustly (Oswald Bold is great for Pinterest)
-            font_path = "Oswald-Bold.ttf"
+            # Download font robustly (Anton is great for Pinterest)
+            font_path = "Anton-Regular.ttf"
             if not os.path.exists(font_path):
                 try:
                     import urllib.request
-                    font_url = "https://raw.githubusercontent.com/google/fonts/main/ofl/oswald/Oswald-Bold.ttf"
+                    font_url = "https://raw.githubusercontent.com/google/fonts/main/ofl/anton/Anton-Regular.ttf"
                     urllib.request.urlretrieve(font_url, font_path)
                 except Exception as e:
                     print(f"   ⚠️ Font download failed: {e}")
