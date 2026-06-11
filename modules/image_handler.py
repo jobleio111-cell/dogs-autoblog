@@ -253,17 +253,20 @@ class ImageHandler:
             box_top = height - box_height
             draw.rectangle([(0, box_top), (width, height)], fill=(0, 0, 0, 180))
             
-            # Load font
-            font = None
-            fonts_to_try = ["arialbd.ttf", "DejaVuSans-Bold.ttf", "FreeSansBold.ttf", "LiberationSans-Bold.ttf"]
-            for f in fonts_to_try:
+            # Load font (Download Nunito-Bold if not available)
+            font_path = "Nunito-Bold.ttf"
+            if not os.path.exists(font_path):
                 try:
-                    font = ImageFont.truetype(f, 60)
-                    break
-                except IOError:
-                    continue
+                    import urllib.request
+                    font_url = "https://github.com/google/fonts/raw/main/ofl/nunito/Nunito-Bold.ttf"
+                    urllib.request.urlretrieve(font_url, font_path)
+                except Exception as e:
+                    print(f"   ⚠️ Font download failed: {e}")
             
-            if font is None:
+            font = None
+            try:
+                font = ImageFont.truetype(font_path, 80)
+            except IOError:
                 font = ImageFont.load_default()
                 
             # Basic text wrapping
