@@ -116,7 +116,7 @@ jobs:
         run: |
           git config --local user.email "autoblog@github.com"
           git config --local user.name "Auto Blog Bot"
-          git add project_context.json published_posts/ logs/ || true
+          git add project_context.json published_posts/ logs/ temp_images/ || true
           git diff --staged --quiet || git commit -m "📝 Auto post: $(date '+%Y-%m-%d %H:%M')"
           git push || true
         env:
