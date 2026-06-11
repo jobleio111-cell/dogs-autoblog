@@ -4,9 +4,9 @@
   "language": "English",
   "posts_per_day": 2,
   "created_at": "2026-06-11",
-  "last_updated": "2026-06-11T20:02:02.504219",
-  "total_posts_published": 10,
-  "total_pins_created": 9,
+  "last_updated": "2026-06-11T22:23:24.421910",
+  "total_posts_published": 11,
+  "total_pins_created": 10,
   "api_keys_configured": false,
   "blogger_configured": false,
   "pinterest_configured": false,
@@ -22,7 +22,8 @@
     "How to Keep Your Dog Healthy and Active",
     "Grooming Tips for Dogs: A Step-by-Step Guide",
     "signs your dog might be sick and when to visit the vet",
-    "Understanding Your Dog's Body Language"
+    "Understanding Your Dog's Body Language",
+    "how to socialize your new puppy properly"
   ],
   "failed_attempts": [
     {
@@ -163,11 +164,23 @@
       "action": "Daily run complete: 1 success, 0 failed",
       "status": "completed",
       "notes": "Total posts ever: 10"
+    },
+    {
+      "date": "2026-06-11T22:23:05.175784",
+      "action": "Daily run started - 1 posts",
+      "status": "started",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-11T22:23:24.421904",
+      "action": "Daily run complete: 1 success, 0 failed",
+      "status": "completed",
+      "notes": "Total posts ever: 11"
     }
   ],
   "stats": {
-    "this_week": 8,
-    "this_month": 8,
-    "all_time": 8
+    "this_week": 9,
+    "this_month": 9,
+    "all_time": 9
   }
 }
