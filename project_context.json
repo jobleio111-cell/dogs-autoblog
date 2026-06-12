@@ -4,9 +4,9 @@
   "language": "English",
   "posts_per_day": 2,
   "created_at": "2026-06-11",
-  "last_updated": "2026-06-12T00:11:05.901478",
-  "total_posts_published": 12,
-  "total_pins_created": 11,
+  "last_updated": "2026-06-12T14:20:17.880064",
+  "total_posts_published": 13,
+  "total_pins_created": 12,
   "api_keys_configured": false,
   "blogger_configured": false,
   "pinterest_configured": false,
@@ -23,7 +23,8 @@
     "Grooming Tips for Dogs: A Step-by-Step Guide",
     "signs your dog might be sick and when to visit the vet",
     "Understanding Your Dog's Body Language",
-    "how to socialize your new puppy properly"
+    "how to socialize your new puppy properly",
+    "what to feed your dog: best nutrition advice"
   ],
   "failed_attempts": [
     {
@@ -188,11 +189,23 @@
       "action": "Daily run complete: 1 success, 0 failed",
       "status": "completed",
       "notes": "Total posts ever: 12"
+    },
+    {
+      "date": "2026-06-12T14:20:02.409631",
+      "action": "Daily run started - 1 posts",
+      "status": "started",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-12T14:20:17.880059",
+      "action": "Daily run complete: 1 success, 0 failed",
+      "status": "completed",
+      "notes": "Total posts ever: 13"
     }
   ],
   "stats": {
-    "this_week": 10,
-    "this_month": 10,
-    "all_time": 10
+    "this_week": 11,
+    "this_month": 11,
+    "all_time": 11
   }
 }
