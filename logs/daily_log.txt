@@ -70,3 +70,5 @@
 [2026-06-16 18:50:24] [SUCCESS] SUCCESS: Is Your Dog Sick? Warning Signs You Should Never Ignore | Blog: True | Pin: True
 [2026-06-16 19:58:37] [INFO] Topic selected: Understanding Your Dog's Body Language
 [2026-06-16 19:58:44] [SUCCESS] SUCCESS: Unleash the Secrets: Mastering Your Dog's Body Language for Deeper Connection | Blog: True | Pin: True
+[2026-06-16 21:43:34] [INFO] Topic selected: top 5 fun exercises to do with your dog
+[2026-06-16 21:43:41] [SUCCESS] SUCCESS: Unleash the Fun: Top 5 Exercises to Strengthen Your Bond with Your Dog | Blog: True | Pin: True
