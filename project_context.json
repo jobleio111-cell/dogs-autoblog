@@ -4,9 +4,9 @@
   "language": "English",
   "posts_per_day": 2,
   "created_at": "2026-06-11",
-  "last_updated": "2026-06-15T22:53:21.594899",
-  "total_posts_published": 30,
-  "total_pins_created": 29,
+  "last_updated": "2026-06-16T13:17:54.620487",
+  "total_posts_published": 31,
+  "total_pins_created": 30,
   "api_keys_configured": false,
   "blogger_configured": false,
   "pinterest_configured": false,
@@ -30,7 +30,8 @@
     "must-have toys and accessories for your puppy",
     "top 5 fun exercises to do with your dog",
     "What to Feed Your Dog: Best Nutrition Advice",
-    "Top 5 Fun Exercises to Do With Your Dog"
+    "Top 5 Fun Exercises to Do With Your Dog",
+    "grooming tips for dogs: a step-by-step guide"
   ],
   "failed_attempts": [
     {
@@ -40,18 +41,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-06-11T07:41:14.269725",
-      "action": "Daily run started - 1 posts",
-      "status": "started",
-      "notes": ""
-    },
-    {
-      "date": "2026-06-11T07:41:26.757465",
-      "action": "Daily run complete: 0 success, 1 failed",
-      "status": "completed",
-      "notes": "Total posts ever: 7"
-    },
     {
       "date": "2026-06-11T07:58:18.537781",
       "action": "Daily run started - 1 posts",
@@ -339,11 +328,23 @@
       "action": "Daily run complete: 1 success, 0 failed",
       "status": "completed",
       "notes": "Total posts ever: 30"
+    },
+    {
+      "date": "2026-06-16T13:17:41.604738",
+      "action": "Daily run started - 1 posts",
+      "status": "started",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-16T13:17:54.620478",
+      "action": "Daily run complete: 1 success, 0 failed",
+      "status": "completed",
+      "notes": "Total posts ever: 31"
     }
   ],
   "stats": {
-    "this_week": 28,
-    "this_month": 28,
-    "all_time": 28
+    "this_week": 29,
+    "this_month": 29,
+    "all_time": 29
   }
 }
