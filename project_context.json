@@ -4,9 +4,9 @@
   "language": "English",
   "posts_per_day": 2,
   "created_at": "2026-06-11",
-  "last_updated": "2026-06-18T14:34:21.066921",
-  "total_posts_published": 42,
-  "total_pins_created": 41,
+  "last_updated": "2026-06-18T18:13:32.062102",
+  "total_posts_published": 43,
+  "total_pins_created": 42,
   "api_keys_configured": false,
   "blogger_configured": false,
   "pinterest_configured": false,
@@ -31,7 +31,8 @@
     "top 5 fun exercises to do with your dog",
     "What to Feed Your Dog: Best Nutrition Advice",
     "Top 5 Fun Exercises to Do With Your Dog",
-    "grooming tips for dogs: a step-by-step guide"
+    "grooming tips for dogs: a step-by-step guide",
+    "the best dog breeds for families with kids"
   ],
   "failed_attempts": [
     {
@@ -41,18 +42,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-06-13T13:10:24.497813",
-      "action": "Daily run started - 1 posts",
-      "status": "started",
-      "notes": ""
-    },
-    {
-      "date": "2026-06-13T13:10:44.244448",
-      "action": "Daily run complete: 1 success, 0 failed",
-      "status": "completed",
-      "notes": "Total posts ever: 19"
-    },
     {
       "date": "2026-06-13T16:06:41.789894",
       "action": "Daily run started - 1 posts",
@@ -340,11 +329,23 @@
       "action": "Daily run complete: 1 success, 0 failed",
       "status": "completed",
       "notes": "Total posts ever: 42"
+    },
+    {
+      "date": "2026-06-18T18:13:15.523898",
+      "action": "Daily run started - 1 posts",
+      "status": "started",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-18T18:13:32.062093",
+      "action": "Daily run complete: 1 success, 0 failed",
+      "status": "completed",
+      "notes": "Total posts ever: 43"
     }
   ],
   "stats": {
-    "this_week": 40,
-    "this_month": 40,
-    "all_time": 40
+    "this_week": 41,
+    "this_month": 41,
+    "all_time": 41
   }
 }
