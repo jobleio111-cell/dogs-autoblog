@@ -102,3 +102,5 @@
 [2026-06-19 16:41:28] [SUCCESS] SUCCESS: The Ultimate Dog Grooming Guide: Tips, Tricks, and Techniques | Blog: True | Pin: True
 [2026-06-19 18:12:49] [INFO] Topic selected: must-have toys and accessories for your puppy
 [2026-06-19 18:12:54] [SUCCESS] SUCCESS: Unlock Your Puppy's Potential: Essential Toys and Accessories for a Happy, Healthy Pet | Blog: True | Pin: True
+[2026-06-19 20:49:44] [INFO] Topic selected: Signs Your Dog Might Be Sick and When to Visit the Vet
+[2026-06-19 20:49:50] [SUCCESS] SUCCESS: Is Your Dog Sick? Warning Signs You Should Never Ignore | Blog: True | Pin: True

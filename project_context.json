@@ -4,9 +4,9 @@
   "language": "English",
   "posts_per_day": 2,
   "created_at": "2026-06-11",
-  "last_updated": "2026-06-19T18:12:54.838054",
-  "total_posts_published": 49,
-  "total_pins_created": 48,
+  "last_updated": "2026-06-19T20:49:50.050782",
+  "total_posts_published": 50,
+  "total_pins_created": 49,
   "api_keys_configured": false,
   "blogger_configured": false,
   "pinterest_configured": false,
@@ -32,7 +32,8 @@
     "What to Feed Your Dog: Best Nutrition Advice",
     "Top 5 Fun Exercises to Do With Your Dog",
     "grooming tips for dogs: a step-by-step guide",
-    "the best dog breeds for families with kids"
+    "the best dog breeds for families with kids",
+    "Signs Your Dog Might Be Sick and When to Visit the Vet"
   ],
   "failed_attempts": [
     {
@@ -42,18 +43,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-06-14T20:12:26.666294",
-      "action": "Daily run started - 1 posts",
-      "status": "started",
-      "notes": ""
-    },
-    {
-      "date": "2026-06-14T20:12:41.834113",
-      "action": "Daily run complete: 0 success, 1 failed",
-      "status": "completed",
-      "notes": "Total posts ever: 25"
-    },
     {
       "date": "2026-06-14T23:48:24.778844",
       "action": "Daily run started - 1 posts",
@@ -341,11 +330,23 @@
       "action": "Daily run complete: 1 success, 0 failed",
       "status": "completed",
       "notes": "Total posts ever: 49"
+    },
+    {
+      "date": "2026-06-19T20:49:36.030172",
+      "action": "Daily run started - 1 posts",
+      "status": "started",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-19T20:49:50.050773",
+      "action": "Daily run complete: 1 success, 0 failed",
+      "status": "completed",
+      "notes": "Total posts ever: 50"
     }
   ],
   "stats": {
-    "this_week": 47,
-    "this_month": 47,
-    "all_time": 47
+    "this_week": 48,
+    "this_month": 48,
+    "all_time": 48
   }
 }
