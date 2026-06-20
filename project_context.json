@@ -4,9 +4,9 @@
   "language": "English",
   "posts_per_day": 2,
   "created_at": "2026-06-11",
-  "last_updated": "2026-06-20T16:09:27.164541",
-  "total_posts_published": 54,
-  "total_pins_created": 53,
+  "last_updated": "2026-06-20T20:08:47.615805",
+  "total_posts_published": 55,
+  "total_pins_created": 54,
   "api_keys_configured": false,
   "blogger_configured": false,
   "pinterest_configured": false,
@@ -33,7 +33,8 @@
     "Top 5 Fun Exercises to Do With Your Dog",
     "grooming tips for dogs: a step-by-step guide",
     "the best dog breeds for families with kids",
-    "Signs Your Dog Might Be Sick and When to Visit the Vet"
+    "Signs Your Dog Might Be Sick and When to Visit the Vet",
+    "10 essential dog care tips every owner should know"
   ],
   "failed_attempts": [
     {
@@ -43,18 +44,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-06-15T22:53:01.302291",
-      "action": "Daily run started - 1 posts",
-      "status": "started",
-      "notes": ""
-    },
-    {
-      "date": "2026-06-15T22:53:21.594893",
-      "action": "Daily run complete: 1 success, 0 failed",
-      "status": "completed",
-      "notes": "Total posts ever: 30"
-    },
     {
       "date": "2026-06-16T13:17:41.604738",
       "action": "Daily run started - 1 posts",
@@ -342,11 +331,23 @@
       "action": "Daily run complete: 1 success, 0 failed",
       "status": "completed",
       "notes": "Total posts ever: 54"
+    },
+    {
+      "date": "2026-06-20T20:08:28.163582",
+      "action": "Daily run started - 1 posts",
+      "status": "started",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-20T20:08:47.615799",
+      "action": "Daily run complete: 1 success, 0 failed",
+      "status": "completed",
+      "notes": "Total posts ever: 55"
     }
   ],
   "stats": {
-    "this_week": 52,
-    "this_month": 52,
-    "all_time": 52
+    "this_week": 53,
+    "this_month": 53,
+    "all_time": 53
   }
 }
