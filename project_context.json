@@ -4,9 +4,9 @@
   "language": "English",
   "posts_per_day": 2,
   "created_at": "2026-06-11",
-  "last_updated": "2026-06-22T23:53:52.706151",
-  "total_posts_published": 66,
-  "total_pins_created": 65,
+  "last_updated": "2026-06-23T13:33:14.214657",
+  "total_posts_published": 67,
+  "total_pins_created": 66,
   "api_keys_configured": false,
   "blogger_configured": false,
   "pinterest_configured": false,
@@ -34,7 +34,8 @@
     "grooming tips for dogs: a step-by-step guide",
     "the best dog breeds for families with kids",
     "Signs Your Dog Might Be Sick and When to Visit the Vet",
-    "10 essential dog care tips every owner should know"
+    "10 essential dog care tips every owner should know",
+    "how to handle common dog behavior problems"
   ],
   "failed_attempts": [
     {
@@ -44,18 +45,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-06-18T14:34:04.851725",
-      "action": "Daily run started - 1 posts",
-      "status": "started",
-      "notes": ""
-    },
-    {
-      "date": "2026-06-18T14:34:21.066914",
-      "action": "Daily run complete: 1 success, 0 failed",
-      "status": "completed",
-      "notes": "Total posts ever: 42"
-    },
     {
       "date": "2026-06-18T18:13:15.523898",
       "action": "Daily run started - 1 posts",
@@ -343,11 +332,23 @@
       "action": "Daily run complete: 1 success, 0 failed",
       "status": "completed",
       "notes": "Total posts ever: 66"
+    },
+    {
+      "date": "2026-06-23T13:33:00.207520",
+      "action": "Daily run started - 1 posts",
+      "status": "started",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-23T13:33:14.214651",
+      "action": "Daily run complete: 1 success, 0 failed",
+      "status": "completed",
+      "notes": "Total posts ever: 67"
     }
   ],
   "stats": {
-    "this_week": 64,
-    "this_month": 64,
-    "all_time": 64
+    "this_week": 65,
+    "this_month": 65,
+    "all_time": 65
   }
 }
