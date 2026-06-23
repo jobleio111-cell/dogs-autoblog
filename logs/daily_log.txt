@@ -143,3 +143,5 @@
 [2026-06-23 18:19:56] [INFO] Topic selected: signs your dog might be sick and when to visit the vet
 [2026-06-23 18:20:01] [CRITICAL] Critical error in run_single_post: Groq API Error 503: {"error":{"message":"llama-3.3-70b-versatile is currently over capacity. Please try again and back off exponentially. Visit https://groqstatus.com to see if there is an active incident.","type":"internal_server_error"}}
 
+[2026-06-23 21:20:19] [INFO] Topic selected: signs your dog might be sick and when to visit the vet
+[2026-06-23 21:20:25] [SUCCESS] SUCCESS: Is Your Dog Sick? Warning Signs You Should Never Ignore | Blog: True | Pin: True
