@@ -4,9 +4,9 @@
   "language": "English",
   "posts_per_day": 2,
   "created_at": "2026-06-11",
-  "last_updated": "2026-06-26T12:03:03.081520",
-  "total_posts_published": 81,
-  "total_pins_created": 80,
+  "last_updated": "2026-06-26T15:34:43.580838",
+  "total_posts_published": 82,
+  "total_pins_created": 81,
   "api_keys_configured": false,
   "blogger_configured": false,
   "pinterest_configured": false,
@@ -35,7 +35,8 @@
     "the best dog breeds for families with kids",
     "Signs Your Dog Might Be Sick and When to Visit the Vet",
     "10 essential dog care tips every owner should know",
-    "how to handle common dog behavior problems"
+    "how to handle common dog behavior problems",
+    "understanding your dog's body language"
   ],
   "failed_attempts": [
     {
@@ -45,18 +46,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-06-21T13:27:01.758422",
-      "action": "Daily run started - 1 posts",
-      "status": "started",
-      "notes": ""
-    },
-    {
-      "date": "2026-06-21T13:27:15.089030",
-      "action": "Daily run complete: 1 success, 0 failed",
-      "status": "completed",
-      "notes": "Total posts ever: 58"
-    },
     {
       "date": "2026-06-21T17:09:53.890925",
       "action": "Daily run started - 1 posts",
@@ -344,11 +333,23 @@
       "action": "Daily run complete: 1 success, 0 failed",
       "status": "completed",
       "notes": "Total posts ever: 81"
+    },
+    {
+      "date": "2026-06-26T15:34:25.105355",
+      "action": "Daily run started - 1 posts",
+      "status": "started",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-26T15:34:43.580832",
+      "action": "Daily run complete: 1 success, 0 failed",
+      "status": "completed",
+      "notes": "Total posts ever: 82"
     }
   ],
   "stats": {
-    "this_week": 79,
-    "this_month": 79,
-    "all_time": 79
+    "this_week": 80,
+    "this_month": 80,
+    "all_time": 80
   }
 }
