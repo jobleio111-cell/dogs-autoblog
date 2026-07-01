@@ -221,3 +221,5 @@
 [2026-07-01 13:27:54] [SUCCESS] SUCCESS: Unlock the Secrets of Dog Grooming: A Step-by-Step Guide to a Happier, Healthier Pet | Blog: True | Pin: True
 [2026-07-01 16:13:04] [INFO] Topic selected: Must-Have Toys and Accessories for Your Puppy
 [2026-07-01 16:13:11] [SUCCESS] SUCCESS: Puppy Essentials: The Ultimate Guide to Must-Have Toys and Accessories | Blog: True | Pin: True
+[2026-07-01 18:28:07] [INFO] Topic selected: How to Keep Your Dog Healthy and Active
+[2026-07-01 18:28:14] [SUCCESS] SUCCESS: Unlock the Secrets to a Vibrant, Energetic Dog: Expert Tips for a Healthy, Happy Life | Blog: True | Pin: True
