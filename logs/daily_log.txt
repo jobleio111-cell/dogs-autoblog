@@ -300,3 +300,5 @@
 [2026-07-08 20:39:11] [SUCCESS] SUCCESS: Unlock Your Puppy's Full Potential: Essential Toys and Accessories for a Happy, Healthy Pet | Blog: True | Pin: True
 [2026-07-09 06:57:59] [INFO] Topic selected: Must-Have Toys and Accessories for Your Puppy
 [2026-07-09 06:58:05] [SUCCESS] SUCCESS: Unleash the Fun: Essential Toys and Accessories for Your New Puppy | Blog: True | Pin: True
+[2026-07-09 10:33:18] [INFO] Topic selected: the best dog breeds for families with kids
+[2026-07-09 10:33:25] [SUCCESS] SUCCESS: Unlock the Perfect Family Pet: Top 10 Dog Breeds for Families with Kids | Blog: True | Pin: True
