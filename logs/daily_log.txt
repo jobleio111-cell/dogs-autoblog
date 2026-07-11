@@ -324,3 +324,5 @@
 [2026-07-11 08:59:08] [SUCCESS] SUCCESS: The Ultimate Guide to Socializing Your New Puppy: Expert Tips and Tricks | Blog: True | Pin: True
 [2026-07-11 12:06:30] [INFO] Topic selected: understanding your dog's body language
 [2026-07-11 12:06:37] [SUCCESS] SUCCESS: Decoding Your Dog's Secret Language: The Ultimate Guide to Understanding Canine Body Language | Blog: True | Pin: True
+[2026-07-11 16:10:51] [INFO] Topic selected: how to handle common dog behavior problems
+[2026-07-11 16:10:58] [SUCCESS] SUCCESS: Transform Your Furry Friend: Expert Solutions to Common Dog Behavior Problems | Blog: True | Pin: True
