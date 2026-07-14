@@ -4,7 +4,7 @@
   "language": "English",
   "posts_per_day": 2,
   "created_at": "2026-06-11",
-  "last_updated": "2026-07-14T16:39:20.002051",
+  "last_updated": "2026-07-14T20:33:04.829258",
   "total_posts_published": 172,
   "total_pins_created": 171,
   "api_keys_configured": false,
@@ -48,18 +48,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-07-09T20:57:50.750061",
-      "action": "Daily run started - 1 posts",
-      "status": "started",
-      "notes": ""
-    },
-    {
-      "date": "2026-07-09T20:58:10.905708",
-      "action": "Daily run complete: 1 success, 0 failed",
-      "status": "completed",
-      "notes": "Total posts ever: 149"
-    },
     {
       "date": "2026-07-10T06:57:39.461240",
       "action": "Daily run started - 1 posts",
@@ -345,6 +333,18 @@
     {
       "date": "2026-07-14T16:39:20.002044",
       "action": "Daily run complete: 1 success, 0 failed",
+      "status": "completed",
+      "notes": "Total posts ever: 172"
+    },
+    {
+      "date": "2026-07-14T20:32:54.812134",
+      "action": "Daily run started - 1 posts",
+      "status": "started",
+      "notes": ""
+    },
+    {
+      "date": "2026-07-14T20:33:04.829246",
+      "action": "Daily run complete: 0 success, 1 failed",
       "status": "completed",
       "notes": "Total posts ever: 172"
     }
