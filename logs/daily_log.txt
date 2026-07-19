@@ -402,3 +402,5 @@
 [2026-07-18 20:08:54] [SUCCESS] SUCCESS: Unlock Your Puppy's Potential: Essential Toys and Accessories for a Happy, Healthy Pet | Blog: True | Pin: True
 [2026-07-19 06:11:31] [INFO] Topic selected: Understanding Your Dog's Body Language
 [2026-07-19 06:11:37] [SUCCESS] SUCCESS: Crack the Canine Code: Mastering Your Dog's Body Language for Deeper Connection | Blog: True | Pin: True
+[2026-07-19 09:17:16] [INFO] Topic selected: how to socialize your new puppy properly
+[2026-07-19 09:17:22] [SUCCESS] SUCCESS: Unlock Your Puppy's Social Potential: The Ultimate Guide to Socialization | Blog: True | Pin: True
