@@ -464,3 +464,5 @@
 [2026-07-25 05:59:18] [SUCCESS] SUCCESS: Unlock Your Puppy's Social Potential: The Ultimate Guide to Proper Socialization | Blog: True | Pin: True
 [2026-07-25 09:12:26] [INFO] Topic selected: The Best Dog Breeds for Families with Kids
 [2026-07-25 09:12:32] [SUCCESS] SUCCESS: Discover the Ultimate Family-Friendly Dog Breeds: A Comprehensive Guide for Parents | Blog: True | Pin: True
+[2026-07-25 12:10:15] [INFO] Topic selected: How to Handle Common Dog Behavior Problems
+[2026-07-25 12:10:22] [SUCCESS] SUCCESS: Transform Your Furry Friend: Expert Solutions to Common Dog Behavior Problems | Blog: True | Pin: True
