@@ -478,3 +478,5 @@
 [2026-07-26 12:17:33] [SUCCESS] SUCCESS: Unlock Your Puppy's Social Potential: The Ultimate Guide to Socialization | Blog: True | Pin: True
 [2026-07-26 16:14:50] [INFO] Topic selected: how to socialize your new puppy properly
 [2026-07-26 16:14:57] [SUCCESS] SUCCESS: Unlock Your Puppy's Social Potential: The Ultimate Guide to Socialization | Blog: True | Pin: True
+[2026-07-26 20:18:21] [INFO] Topic selected: signs your dog might be sick and when to visit the vet
+[2026-07-26 20:18:28] [SUCCESS] SUCCESS: Is Your Dog Sick? Warning Signs You Should Never Ignore | Blog: True | Pin: True
