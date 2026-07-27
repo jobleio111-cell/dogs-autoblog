@@ -486,3 +486,6 @@
 [2026-07-27 10:50:49] [SUCCESS] SUCCESS: Discover the Top 10 Dog Breeds for Families with Kids: A Comprehensive Guide | Blog: True | Pin: True
 [2026-07-27 13:44:49] [INFO] Topic selected: How to Handle Common Dog Behavior Problems
 [2026-07-27 13:44:55] [SUCCESS] SUCCESS: Transform Your Furry Friend: Expert Solutions to Common Dog Behavior Problems | Blog: True | Pin: True
+[2026-07-27 17:08:58] [INFO] Topic selected: Understanding Your Dog's Body Language
+[2026-07-27 17:09:04] [ERROR] Blogger publish failed: <HttpError 503 when requesting https://blogger.googleapis.com/v3/blogs/2865063923644115436/posts?isDraft=false&fetchBody=false&alt=json returned "The service is currently unavailable.". Details: "[{'message': 'The service is currently unavailable.', 'domain': 'global', 'reason': 'backendError'}]">
+[2026-07-27 17:09:04] [SUCCESS] SUCCESS: Unleash the Secrets: Mastering Your Dog's Body Language for Deeper Connection | Blog: False | Pin: True
