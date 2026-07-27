@@ -489,3 +489,5 @@
 [2026-07-27 17:08:58] [INFO] Topic selected: Understanding Your Dog's Body Language
 [2026-07-27 17:09:04] [ERROR] Blogger publish failed: <HttpError 503 when requesting https://blogger.googleapis.com/v3/blogs/2865063923644115436/posts?isDraft=false&fetchBody=false&alt=json returned "The service is currently unavailable.". Details: "[{'message': 'The service is currently unavailable.', 'domain': 'global', 'reason': 'backendError'}]">
 [2026-07-27 17:09:04] [SUCCESS] SUCCESS: Unleash the Secrets: Mastering Your Dog's Body Language for Deeper Connection | Blog: False | Pin: True
+[2026-07-27 20:45:57] [INFO] Topic selected: Grooming Tips for Dogs: A Step-by-Step Guide
+[2026-07-27 20:46:03] [SUCCESS] SUCCESS: Transform Your Dog's Coat: The Ultimate Grooming Guide for a Healthy, Happy Pet | Blog: True | Pin: True
