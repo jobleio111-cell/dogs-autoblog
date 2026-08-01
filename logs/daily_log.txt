@@ -539,3 +539,5 @@
 [2026-08-01 09:19:56] [SUCCESS] SUCCESS: Unlock Your Puppy's Full Potential: The Ultimate Guide to Socialization | Blog: True | Pin: True
 [2026-08-01 12:13:19] [INFO] Topic selected: how to socialize your new puppy properly
 [2026-08-01 12:13:25] [SUCCESS] SUCCESS: The Ultimate Guide to Socializing Your New Puppy: Expert Tips and Tricks | Blog: True | Pin: True
+[2026-08-01 16:13:33] [INFO] Topic selected: the ultimate guide to puppy training for beginners
+[2026-08-01 16:13:40] [SUCCESS] SUCCESS: Unlock the Secrets to Raising a Well-Behaved Puppy: The Ultimate Guide to Puppy Training for Beginners | Blog: True | Pin: True
