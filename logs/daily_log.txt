@@ -553,3 +553,5 @@
 [2026-08-02 16:13:04] [SUCCESS] SUCCESS: Unlock the Secrets to a Vibrant, Energetic Dog: Expert Tips for a Healthy, Active Life | Blog: True | Pin: True
 [2026-08-02 20:17:25] [INFO] Topic selected: how to socialize your new puppy properly
 [2026-08-02 20:17:32] [SUCCESS] SUCCESS: The Ultimate Guide to Socializing Your New Puppy: Expert Tips and Tricks | Blog: True | Pin: True
+[2026-08-03 06:40:33] [INFO] Topic selected: how to handle common dog behavior problems
+[2026-08-03 06:40:40] [SUCCESS] SUCCESS: Transform Your Furry Friend: Expert Solutions to Common Dog Behavior Problems | Blog: True | Pin: True
