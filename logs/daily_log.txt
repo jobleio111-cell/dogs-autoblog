@@ -557,3 +557,5 @@
 [2026-08-03 06:40:40] [SUCCESS] SUCCESS: Transform Your Furry Friend: Expert Solutions to Common Dog Behavior Problems | Blog: True | Pin: True
 [2026-08-03 10:51:26] [INFO] Topic selected: understanding your dog's body language
 [2026-08-03 10:51:33] [SUCCESS] SUCCESS: Decoding Your Dog's Secret Language: A Comprehensive Guide to Understanding Canine Body Language | Blog: True | Pin: True
+[2026-08-03 13:48:32] [INFO] Topic selected: how to handle common dog behavior problems
+[2026-08-03 13:48:38] [SUCCESS] SUCCESS: Tame the Beast: Expert Solutions to Common Dog Behavior Problems | Blog: True | Pin: True
