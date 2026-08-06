@@ -585,3 +585,5 @@
 [2026-08-05 20:40:48] [SUCCESS] SUCCESS: Unleash the Power of Positive Dog Training: Solve Common Behavior Problems | Blog: True | Pin: True
 [2026-08-06 06:07:27] [INFO] Topic selected: how to handle common dog behavior problems
 [2026-08-06 06:07:34] [SUCCESS] SUCCESS: Transform Your Furry Friend: Expert Solutions to Common Dog Behavior Problems | Blog: True | Pin: True
+[2026-08-06 09:50:30] [INFO] Topic selected: understanding your dog's body language
+[2026-08-06 09:50:36] [SUCCESS] SUCCESS: Unleash the Secrets: Mastering Your Dog's Body Language for Deeper Connection | Blog: True | Pin: True
