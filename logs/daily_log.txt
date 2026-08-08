@@ -607,3 +607,5 @@
 [2026-08-08 07:58:52] [SUCCESS] SUCCESS: Is Your Dog Sick? Warning Signs You Should Never Ignore | Blog: True | Pin: True
 [2026-08-08 11:43:52] [INFO] Topic selected: Signs Your Dog Might Be Sick and When to Visit the Vet
 [2026-08-08 11:43:59] [SUCCESS] SUCCESS: Is Your Dog Sick? Warning Signs You Should Never Ignore | Blog: True | Pin: True
+[2026-08-08 15:46:33] [INFO] Topic selected: top 5 fun exercises to do with your dog
+[2026-08-08 15:46:39] [SUCCESS] SUCCESS: Unleash the Fun: Top 5 Exercises to Boost Your Dog's Physical and Mental Health | Blog: True | Pin: True
