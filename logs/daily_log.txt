@@ -623,3 +623,5 @@
 [2026-08-09 19:50:50] [SUCCESS] SUCCESS: Unlock the Secrets of Puppy Socialization: Expert Tips for a Well-Behaved Pet | Blog: True | Pin: True
 [2026-08-10 04:58:25] [INFO] Topic selected: Understanding Your Dog's Body Language
 [2026-08-10 04:58:31] [SUCCESS] SUCCESS: Decoding Canine Communication: Unlock the Secrets of Your Dog's Body Language | Blog: True | Pin: True
+[2026-08-10 08:50:42] [INFO] Topic selected: How to Handle Common Dog Behavior Problems
+[2026-08-10 08:50:48] [SUCCESS] SUCCESS: Taming the Beast: Expert Solutions to Common Dog Behavior Problems | Blog: True | Pin: True
