@@ -655,3 +655,5 @@
 [2026-08-13 05:11:51] [SUCCESS] SUCCESS: Unlock the Secrets of Dog Grooming: A Comprehensive Step-by-Step Guide | Blog: True | Pin: True
 [2026-08-13 08:42:38] [INFO] Topic selected: how to socialize your new puppy properly
 [2026-08-13 08:42:44] [SUCCESS] SUCCESS: The Ultimate Guide to Socializing Your New Puppy: Expert Tips and Tricks | Blog: True | Pin: True
+[2026-08-13 12:00:38] [INFO] Topic selected: How to Handle Common Dog Behavior Problems
+[2026-08-13 12:00:46] [SUCCESS] SUCCESS: Transform Your Furry Friend: Expert Solutions to Common Dog Behavior Problems | Blog: True | Pin: True
