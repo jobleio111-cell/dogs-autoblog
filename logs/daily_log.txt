@@ -727,3 +727,6 @@
 [2026-08-19 07:53:36] [INFO] Topic selected: How to Handle Common Dog Behavior Problems
 [2026-08-19 07:53:36] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-08-19 11:41:39] [INFO] Topic selected: 10 Essential Dog Care Tips Every Owner Should Know
+[2026-08-19 11:41:39] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
