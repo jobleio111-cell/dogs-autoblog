@@ -814,3 +814,6 @@
 [2026-08-25 11:45:27] [INFO] Topic selected: how to keep your dog healthy and active
 [2026-08-25 11:45:27] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-08-25 16:00:37] [INFO] Topic selected: how to handle common dog behavior problems
+[2026-08-25 16:00:37] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
