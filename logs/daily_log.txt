@@ -928,3 +928,6 @@
 [2026-09-02 07:59:40] [INFO] Topic selected: What to Feed Your Dog: Best Nutrition Advice
 [2026-09-02 07:59:40] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-09-02 12:06:36] [INFO] Topic selected: How to Keep Your Dog Healthy and Active
+[2026-09-02 12:06:36] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
