@@ -979,3 +979,6 @@
 [2026-09-05 13:52:38] [INFO] Topic selected: must-have toys and accessories for your puppy
 [2026-09-05 13:52:38] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-09-05 17:21:29] [INFO] Topic selected: Understanding Your Dog's Body Language
+[2026-09-05 17:21:29] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
