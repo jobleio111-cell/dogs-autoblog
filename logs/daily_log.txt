@@ -1240,3 +1240,6 @@
 [2026-09-22 22:14:29] [INFO] Topic selected: Understanding Your Dog's Body Language
 [2026-09-22 22:14:29] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-09-23 08:41:17] [INFO] Topic selected: 10 essential dog care tips every owner should know
+[2026-09-23 08:41:17] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
