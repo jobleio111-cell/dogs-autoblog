@@ -1258,3 +1258,6 @@
 [2026-09-24 08:34:10] [INFO] Topic selected: 10 Essential Dog Care Tips Every Owner Should Know
 [2026-09-24 08:34:10] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-09-24 12:43:29] [INFO] Topic selected: Top 5 Fun Exercises to Do With Your Dog
+[2026-09-24 12:43:29] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
