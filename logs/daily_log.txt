@@ -1465,3 +1465,6 @@
 [2026-10-07 23:36:30] [INFO] Topic selected: Signs Your Dog Might Be Sick and When to Visit the Vet
 [2026-10-07 23:36:30] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-10-08 10:43:51] [INFO] Topic selected: 10 essential dog care tips every owner should know
+[2026-10-08 10:43:51] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
