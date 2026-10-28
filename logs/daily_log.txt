@@ -1774,3 +1774,6 @@
 [2026-10-28 17:10:40] [INFO] Topic selected: How to Socialize Your New Puppy Properly
 [2026-10-28 17:10:41] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-10-28 20:16:30] [INFO] Topic selected: signs your dog might be sick and when to visit the vet
+[2026-10-28 20:16:30] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
