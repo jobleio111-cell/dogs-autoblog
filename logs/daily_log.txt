@@ -1792,3 +1792,6 @@
 [2026-10-29 20:18:06] [INFO] Topic selected: Grooming Tips for Dogs: A Step-by-Step Guide
 [2026-10-29 20:18:07] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-10-29 23:19:36] [INFO] Topic selected: grooming tips for dogs: a step-by-step guide
+[2026-10-29 23:19:36] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
