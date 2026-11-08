@@ -1933,3 +1933,6 @@
 [2026-11-08 10:33:04] [INFO] Topic selected: the ultimate guide to puppy training for beginners
 [2026-11-08 10:33:04] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-11-08 14:16:39] [INFO] Topic selected: Must-Have Toys and Accessories for Your Puppy
+[2026-11-08 14:16:39] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
