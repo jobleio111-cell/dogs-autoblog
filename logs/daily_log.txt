@@ -1981,3 +1981,6 @@
 [2026-11-11 15:13:03] [INFO] Topic selected: The Best Dog Breeds for Families with Kids
 [2026-11-11 15:13:03] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-11-11 18:42:44] [INFO] Topic selected: 10 essential dog care tips every owner should know
+[2026-11-11 18:42:45] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
