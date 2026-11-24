@@ -2179,3 +2179,6 @@
 [2026-11-24 21:11:58] [INFO] Topic selected: top 5 fun exercises to do with your dog
 [2026-11-24 21:11:58] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-11-24 23:54:02] [INFO] Topic selected: grooming tips for dogs: a step-by-step guide
+[2026-11-24 23:54:02] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
